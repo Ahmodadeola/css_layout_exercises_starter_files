@@ -1,0 +1,43 @@
+* {
+   box-sizing: border-box; 
+}
+	
+main{
+     width: 800px; 
+     height: 500px; 
+     margin-right: auto; 
+     margin-left: auto; 
+      background-color: blue; 
+     font-size: 0;
+     border: 1px solid black; 
+	}
+	
+	.top{
+	     height: 200px; 
+	     display: inline-block;
+	     width: 50%;
+		}
+		
+	.top.left{
+			background-color: red;
+			}
+			
+	.top.right{
+			background-color: purple;
+			}
+			
+		.low{
+			height: 300px; 
+			width: 33.3%;
+			display: inline-block;
+			}
+			
+		.low.left{
+			float: left; 
+			background-color: maroon; 
+			}
+			
+		.low.right{
+			background-color: green;
+			
+			}
